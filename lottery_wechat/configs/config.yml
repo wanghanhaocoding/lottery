@@ -1,7 +1,7 @@
 app:
   app_name: "lottery_wechat"
   version: "v0.0.1"
-  port: 6379
+  port: 8080
   run_mod: release
 
 log:
@@ -12,7 +12,7 @@ log:
 
 db:
   host: "0.0.0.0"
-  port: 8086
+  port: 3306
   user: "root"
   password: "123456"
   dbname: "lottery_system"
