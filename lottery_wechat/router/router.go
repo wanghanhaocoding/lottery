@@ -13,5 +13,7 @@ func SetRouter() *gin.Engine {
 	group := r.Group("/lottery_wechat")
 	group.GET("/hello", api.Hello)
 	group.POST("/add_prize", api.InitPrize)
+	group.GET("/get_prize_info", api.GetPrizeInfo)
+	group.GET("/lottery", api.Lottery)
 	return r
 }
